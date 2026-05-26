@@ -1,0 +1,10 @@
+# TrapDoor compromised packages
+# Waiting for exact affected versions
+
+# cryptowallet-safety==X.X.X
+# data-pipeline-check==X.X.X
+# defi-risk-scanner==X.X.X
+# env-loader-cli==X.X.X
+# eth-security-auditor==X.X.X
+# git-config-sync==X.X.X
+# solidity-build-guard==X.X.X
