@@ -1,0 +1,10 @@
+# TrapDoor Supply Chain Attack
+# PyPI malicious packages
+
+cryptowallet-safety
+data-pipeline-check
+defi-risk-scanner
+env-loader-cli
+eth-security-auditor
+git-config-sync
+solidity-build-guard
