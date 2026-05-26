@@ -1,0 +1,61 @@
+EXEXPLO DE LOGS: audit_report.txt
+
+===== DEPENDENCY TREE =====
+aiofiles==25.1.0
+aiomysql==0.2.0
+  - PyMySQL [required: >=1.0, installed: 1.1.2]
+aiosqlite==0.22.1
+argostranslate==1.10.0
+  - ctranslate2 [required: >=4.0,<5, installed: 4.6.1]
+    - numpy [required: Any, installed: 2.2.6]
+    - PyYAML [required: >=5.3,<7, installed: 6.0.1]
+    - setuptools [required: Any, installed: 82.0.1]
+  - packaging [required: Any, installed: 26.1]
+  - sacremoses [required: >=0.0.53,<0.2, installed: 0.1.1]
+...
+
+NOTE: This warning isn't a failure warning.
+------------------------------------------------------------------------
+Warning!!! Possibly conflicting dependencies found:
+* googletrans==4.0.0rc1
+ - httpx [required: ==0.13.3, installed: 0.25.2]
+* gTTS==2.5.4
+ - click [required: >=7.1,<8.2, installed: 8.4.1]
+------------------------------------------------------------------------
+
+...
+
+===== PIP AUDIT =====
+Name             Version  ID             Fix Versions
+---------------- -------- -------------- -------------------
+django           6.0      PYSEC-2026-50  5.2.14,6.0.5
+django           6.0      PYSEC-2026-43  4.2.28,5.2.11,6.0.2
+django           6.0      PYSEC-2026-42  4.2.28,5.2.11,6.0.2
+django           6.0      PYSEC-2026-44  4.2.28,5.2.11,6.0.2
+django           6.0      PYSEC-2026-46  4.2.28,5.2.11,6.0.2
+django           6.0      PYSEC-2026-45  4.2.28,5.2.11,6.0.2
+django           6.0      PYSEC-2026-53  4.2.30,5.2.13,6.0.4
+django           6.0      PYSEC-2026-48  4.2.30,5.2.13,6.0.4
+django           6.0      PYSEC-2026-49  4.2.30,5.2.13,6.0.4
+django           6.0      PYSEC-2026-52  4.2.30,5.2.13,6.0.4
+django           6.0      PYSEC-2026-47  4.2.28,5.2.11,6.0.2
+django           6.0      PYSEC-2026-51  4.2.30,5.2.13,6.0.4
+django           6.0      PYSEC-2026-55  5.2.14,6.0.5
+django           6.0      PYSEC-2026-54  5.2.14,6.0.5
+django           6.0      CVE-2026-25674 4.2.29,5.2.12,6.0.3
+django           6.0      CVE-2026-25673 4.2.29,5.2.12,6.0.3
+ecdsa            0.19.1   CVE-2024-23342
+ecdsa            0.19.1   CVE-2026-33936 0.19.2
+flask            3.0.3    CVE-2026-27205 3.1.3
+jinja2           3.1.4    CVE-2024-56326 3.1.5
+jinja2           3.1.4    CVE-2024-56201 3.1.5
+jinja2           3.1.4    CVE-2025-27516 3.1.6
+pillow           10.3.0   CVE-2026-25990 12.1.1
+pillow           10.3.0   CVE-2026-40192 12.2.0
+pillow           10.3.0   CVE-2026-42308 12.2.0
+pillow           10.3.0   CVE-2026-42310 12.2.0
+pillow           10.3.0   CVE-2026-42311 12.2.0
+Name          Skip Reason
+------------- ----------------------------------------------------------------------------
+xx-sent-ud-sm Dependency not found on PyPI and could not be audited: xx-sent-ud-sm (3.8.0)
+Found 46 known vulnerabilities in 17 packages
